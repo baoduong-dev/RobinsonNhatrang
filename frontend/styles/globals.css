@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-hero {
+  @apply bg-white relative my-16 items-center min-h-550px flex;
+}
+.achievements {
+  @apply mt-20 py-4;
+  background-color: #f4fbff;
+}
+.home-service {
+  @apply mt-20;
+}
+
+@layer components {
+  .header {
+    @apply bg-white relative z-10 py-4;
+    box-shadow: 0px 4px 6px rgba(172, 172, 172, 0.15);
+  }
+  .footer {
+    @apply bg-white relative z-10 py-4;
+  }
+  .btn {
+    @apply inline-block py-2 px-4 rounded-md focus:outline-none;
+    transition: all 0.2s ease-in-out;
+  }
+  .sub-title{
+    @apply text-robin-100 text-lg uppercase text-center mb-5;
+  }
+  .title{
+    @apply text-zinc-900 text-5xl font-bold uppercase text-center;
+  }
+}
+
+@layer utilities {
+  .bg-robin-100 {
+    background-color: #0045ff;
+  }
+  .bg-robin-200 {
+    background-color: #0e1772;
+  }
+  .text-robin-100 {
+    color: #0045ff;
+  }
+  .text-robin-200 {
+    color: #0e1772;
+  }
+  .border-robin-100 {
+    border-color: #0045ff;
+  }
+  .border-robin-200 {
+    border-color: #0e1772;
+  }
+}
