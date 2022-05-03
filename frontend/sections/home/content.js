@@ -8,7 +8,7 @@ export default function Content() {
           Vài nét về Robinson Nha Trang
         </h2>
         <div className='mt-10'>
-          <div className='flex space-x-10 items-center'>
+          <div className='flex flex-col md:flex-row space-x-0 md:space-x-10 space-y-6 md:space-y-0 items-center'>
             <div className='flex-1'>
               <h3 className='text-2xl font-bold text-zinc-900'>
                 Heading 01 - H3
@@ -22,7 +22,7 @@ export default function Content() {
             </div>
           </div>
 
-          <div className='flex flex-row-reverse space-x-10 space-x-reverse items-center mt-8'>
+          <div className='flex flex-col md:flex-row-reverse space-x-0 md:space-x-10 md:space-x-reverse space-y-6 md:space-y-0 items-center mt-8'>
             <div className='flex-1'>
               <h3 className='text-2xl font-bold text-zinc-900'>
                 Heading 02 - H3

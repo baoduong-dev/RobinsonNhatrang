@@ -10,7 +10,7 @@ export default function Resort() {
             <div className='container mx-auto px-4'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-center'>
                     <div>
-                        <div className='w-full h-600px shadow-2xl rounded-3xl relative overflow-hidden'>
+                        <div className='w-full h-420px md:h-600px shadow-2xl rounded-3xl relative overflow-hidden'>
                             <Image src='/images/resort-1.jpg' alt='resort-1' layout='fill' className='w-full h-full object-cover object-center' />
                         </div>
                     </div>

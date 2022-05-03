@@ -7,7 +7,7 @@ export default function Achievements() {
     return (
         <div className='achievements'>
             <div className='container mx-auto px-4'>
-                <div className='flex justify-center space-x-32'>
+                <div className='flex flex-col md:flex-row justify-center space-y-10 md:space-y-0 space-x-0 md:space-x-32'>
                     <div className='flex items-center space-x-3'>
                         <FaUsers className='w-14 h-14 text-gray-900' />
                         <div>

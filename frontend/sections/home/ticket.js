@@ -5,10 +5,10 @@ import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 export default function Ticket() {
     return (
-        <div className='-mt-48'>
+        <div className='mt-20 md:-mt-48'>
             <div className='container mx-auto px-4'>
-                <div className='grid grid-cols-2 gap-4 items-center'>
-                    <div className='relative'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-center'>
+                    <div className='relative hidden md:block'>
                         <img src='/images/person-ticket.png' alt='person-ticket' className='z-10 relative h-520px w-auto -right-32' />
                         <div className='absolute left-0 bottom-0 w-530px h-470px bg-blue-100 rounded-xl'></div>
                     </div>
@@ -17,7 +17,7 @@ export default function Ticket() {
                             <div className='w-70px h-70px flex items-center justify-center text-white bg-robin-100 rounded-md border-4 border-white shadow-xl'>
                                 <IoDiamond className='h-10 w-10' />
                             </div>
-                            <h2 className='font-bold text-4xl text-zinc-900'>
+                            <h2 className='font-bold text-2xl md:text-4xl text-zinc-900'>
                                 Vé lên đảo Robinson
                             </h2>
 
@@ -25,7 +25,7 @@ export default function Ticket() {
                         <p className='mt-6 text-gray-600 text-base font-normal'>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
-                        <div className='mt-6 flex w-full'>
+                        <div className='mt-6 flex flex-col md:flex-row space-y-4 md:space-y-0 w-full'>
                             <div className='flex-auto flex space-x-4'>
                                 <div className='w-70px h-70px bg-blue-50 rounded-lg text-robin-100 flex items-center justify-center'>
                                     <FaUserFriends className='h-8 w-8' />
@@ -61,8 +61,8 @@ export default function Ticket() {
                             </div>
                         </div>
 
-                        <div className='p-4 mt-6 bg-blue-50 text-lg flex space-x-2 items-center'>
-                            <AiOutlineInfoCircle className='text-robin-100' />
+                        <div className='p-4 mt-6 bg-blue-50 text-lg flex space-x-2 md:items-center'>
+                            <AiOutlineInfoCircle className='text-robin-100 w-8 md:w-5 h-8 md:h-5' />
                             <p className='text-gray-700'>
                                 <span className='text-robin-100'>
                                     Đã bao gồm:

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .home-hero {
-  @apply bg-white relative my-16 items-center min-h-550px flex;
+  @apply bg-white relative my-16 items-center min-h-0 md:min-h-550px flex;
 }
 .achievements {
   @apply mt-20 py-4;
