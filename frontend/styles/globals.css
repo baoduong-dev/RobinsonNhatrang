@@ -25,11 +25,19 @@
     @apply inline-block py-2 px-4 rounded-md focus:outline-none;
     transition: all 0.2s ease-in-out;
   }
-  .sub-title{
+  .sub-title {
     @apply text-robin-100 text-lg uppercase text-center mb-5;
   }
-  .title{
+  .title {
     @apply text-zinc-900 text-5xl font-bold uppercase text-center;
+  }
+  .tour-item:before {
+    @apply absolute content-[''] top-0 left-0 w-full h-full;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
   }
 }
 
