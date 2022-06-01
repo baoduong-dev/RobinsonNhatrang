@@ -168,7 +168,7 @@ const MobileNav = () => {
             >
                 <Box
                     as='a'
-                    href='/'
+                    href='/tour'
                     color='blue.900'
                     fontSize='lg'
                     fontWeight='normal'
@@ -184,7 +184,7 @@ const MobileNav = () => {
             >
                 <Box
                     as='a'
-                    href='/'
+                    href='/dich-vu'
                     color='blue.900'
                     fontSize='lg'
                     fontWeight='normal'
@@ -200,7 +200,7 @@ const MobileNav = () => {
             >
                 <Box
                     as='a'
-                    href='/'
+                    href='/luu-tru'
                     color='blue.900'
                     fontSize='lg'
                     fontWeight='normal'
@@ -216,7 +216,7 @@ const MobileNav = () => {
             >
                 <Box
                     as='a'
-                    href='/'
+                    href='/nha-hang'
                     color='blue.900'
                     fontSize='lg'
                     fontWeight='normal'
@@ -232,7 +232,7 @@ const MobileNav = () => {
             >
                 <Box
                     as='a'
-                    href='/'
+                    href='/lien-he'
                     color='blue.900'
                     fontSize='lg'
                     fontWeight='normal'
