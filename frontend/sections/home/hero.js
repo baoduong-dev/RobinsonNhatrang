@@ -13,7 +13,6 @@ export default function Hero() {
                     </h1>
                     <div className='mt-10 md:mt-16'>
                         <div className='flex items-center justify-center md:justify-start space-x-4 cursor-pointer relative'>
-                            
                             <BsFillPlayCircleFill className="animate-pulse text-robin-100 w-8 h-8" />
                             <p className='text-xl text-gray-900'>
                                 Play Video
